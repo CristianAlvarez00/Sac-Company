@@ -1,4 +1,4 @@
-/*
+    /*
  * Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
  * Click nbfs://nbhost/SystemFileSystem/Templates/Classes/Class.java to edit this template
  */
@@ -13,7 +13,7 @@ import javax.swing.JOptionPane;
 import com.mycompany.saccompany.utilidades.Funciones;
 
 public class GestionarContrato {
-    private ArrayList <Contrato> listaContrato = new ArrayList<>(); 
+    //private ArrayList <Contrato> listaContrato = new ArrayList<>(); 
     public void crearContrato(Empleador empleador, Trabajador trabajador, Proyecto proyecto){
         Contrato contrato = new Contrato();
         contrato.setEmpleador(empleador);
